@@ -12,17 +12,17 @@ Ques No 1:
 
 Ques No 2:
 
-## in fetch_api.php file
+## Answer: in fetch_api.php file
 
 Ques No 3:
 
-## in mysql.txt file
+## Answer: in mysql.txt file
 
 Ques No 4:
 i will answer it in later
-Honestlu currenty i have no full knowledge on PHPUnit Testing so i ignore it
+Honestly currenty i have no full knowledge on PHPUnit Testing so i ignore it
 
-For adding filter and sorting i will try to add this feature in later
+For adding filter and sorting i will try to add this feature in ques no two later
 
 Sincerely
 Ismail Hossain
