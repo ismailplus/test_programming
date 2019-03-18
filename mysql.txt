@@ -1,0 +1,13 @@
+SELECT campaigns.id, campaigns.name, COUNT(landers.campaign_id) as total_landers_count, SUM(conversions.revenue) as total_revenue
+FROM campaigns
+LEFT JOIN landers
+ON campaigns.id = landers.campaign_id
+LEFT JOIN conversions
+ON campaigns.id = conversions.campaign_id
+AND landers.id = conversions.lander_id
+GROUP BY campaigns.id
+
+
+
+
+510bc7445ae44b08b01e931bf7386f42
